@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(31, 146, 247);
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+
+a {
+    color: white;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    background-color: tomato;
+}
+
+#cabecalho {
+    margin: 21px;
+}
+
+h2 {
+    font-size: 15pt;
+    max-width: 200px;
+    margin-bottom: 20px;
+    margin: 15px;
+}
+
+#headline {
+    display: flex;
+    align-items: center;
+    
+}
+
+p, li {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.questao {
+    text-align: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(236, 239, 240);
+}
+
+#conteudo {
+    display: flex;
+}
+
+#box {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+#box1 {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+footer {
+    color: rgb(32, 32, 32);
+    text-align: left;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+#copy {
+    margin: 0;
+}
+
+#botao {
+    padding: 4px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 20pt;
+    }
+    
+    .questao {
+        width: 100%;
+    }
+
+    #conteudo {
+        flex-direction: column;
+    }
+
+    #headline {
+        margin: auto;
+    }
+}
